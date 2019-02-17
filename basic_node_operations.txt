@@ -1,0 +1,19 @@
+1.
+Run the commands sort, wc and uniq on the commands.js file. Explain how they work and what the output was each line.
+
+The sort command sorts the file in alphabetical order, The output was the content sorted alphabetically with same words put together. The wc command calculated the bytes, lines and word count, the out put was  72  180 1914 which is the line wordcount and bytes in the file.Uniq filename sorts each line in a file and only returns different lines. It outputted the content of command.js with similar line removed.
+
+2.
+Using the pipe (|) connect at least two commands and run it on commands.js. Explain what the output was and why the specific data was outputted.
+
+touch file | wc created a file and outputted 0 0 0, this was because it combined the touch command with wc so it created the file and counted the lines, words and bytes in the file which were all 0.
+
+6.
+Given a string, reverse the order of characters in each word within a sentence while maintaining the original word order and whitespace and return the string. To improve your problem-solving experience, use the suggested functions to solve the problem.
+
+function reverseString(inputString) {
+  return inputString.split('').reverse().join('');
+}
+
+
+ 
